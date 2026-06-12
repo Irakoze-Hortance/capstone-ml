@@ -31,6 +31,6 @@ A FastAPI-based machine learning system for counterfeit medicine packaging detec
 
 ---
 
-## Project Structure
 
+## Design Link: 'https://www.figma.com/design/nlKueCQFq6y63viL3jSwd1/pharmacheck?node-id=0-1&t=1csNLmRkR3myup7s-1'
 ![alt text](screen.png)
