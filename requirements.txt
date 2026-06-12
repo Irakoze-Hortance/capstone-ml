@@ -1,43 +1,14 @@
-# =====================
-# FastAPI CORE
-# =====================
 fastapi==0.110.0
 uvicorn[standard]==0.27.1
 python-multipart==0.0.9
 pydantic==2.6.4
 
-# =====================
-# ML / AI STACK
-# =====================
 numpy==1.26.4
 pandas==2.2.2
+
 scikit-learn==1.4.2
-
-# TensorFlow (ONLY if supported Python)
-tensorflow==2.15.0
-
-# If TensorFlow fails, use ONE of these alternatives:
-# tflite-runtime==2.14.0
-
-# =====================
-# IMAGE PROCESSING
-# =====================
 pillow==10.3.0
-
-# =====================
-# VISUALIZATION
-# =====================
 matplotlib==3.8.4
 seaborn==0.13.2
 
-# =====================
-# UTILITIES
-# =====================
 requests==2.31.0
-python-dotenv==1.0.1
-
-# =====================
-# OPTIONAL (recommended for production)
-# =====================
-httpx==0.27.0
-loguru==0.7.2
