@@ -23,13 +23,13 @@ DATA_ROOT = Path(
 
 ARTIFACT_DIR = Path(
     "/Users/mac/Desktop/capstone-prep/artifacts"
+    
 )
 
 HISTORY_PATH = ARTIFACT_DIR / "prediction_history.jsonl"
 
 MODEL_KERAS = ARTIFACT_DIR / "pharmacheck_mobilenetv3.keras"
-MODEL_TFLITE = ARTIFACT_DIR / "pharmacheck_mobilenetv3.tflite"
-
+MODEL_TFLITE = Path("artifacts/pharmacheck_mobilenetv3.tflite")
 # ------------------------------------------------------------------
 # Model settings
 # ------------------------------------------------------------------
